@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template src="http://www.draftexpress.com/xml/yahoo/draftexpress_2017_nba_mock_draft_yahoo.xml" match="/">
+<xsl:template xsl:src="http://www.draftexpress.com/xml/yahoo/draftexpress_2017_nba_mock_draft_yahoo.xml" match="/">
 <html> 
 <body>
     <xsl:for-each select="rankings/mockDraft/player">
@@ -17,4 +17,3 @@
 </html>
 </xsl:template>
 </xsl:stylesheet>
-
